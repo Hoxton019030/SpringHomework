@@ -973,3 +973,11 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact jstl:jstl:jar
 2022-04-21 02:28:37,363 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
 2022-04-21 02:28:37,364 [Worker-133: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-04-21 02:28:37,364 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-21 02:32:08,709 [Worker-136: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-21 02:32:08,710 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_java\SpringHomework\SpringDemoTeacher\src\main\resources
+2022-04-21 02:32:08,711 [Worker-136: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-21 02:32:08,711 [Worker-136: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_java\SpringHomework\SpringDemoTeacher\src\test\resources
+2022-04-21 02:32:11,467 [Worker-134: Launching TestMoreAnnotation] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-21 02:32:11,468 [Worker-134: Launching TestMoreAnnotation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_java\SpringHomework\SpringDemoTeacher\src\main\resources
+2022-04-21 02:32:11,469 [Worker-134: Launching TestMoreAnnotation] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-21 02:32:11,470 [Worker-134: Launching TestMoreAnnotation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_java\SpringHomework\SpringDemoTeacher\src\test\resources

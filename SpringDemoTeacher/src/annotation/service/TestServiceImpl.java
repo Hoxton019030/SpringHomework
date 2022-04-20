@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 import annotation.dao.TestDao;
 
-@Service("testService")
+@Service
 public class TestServiceImpl implements TestService {
 
 	@Autowired

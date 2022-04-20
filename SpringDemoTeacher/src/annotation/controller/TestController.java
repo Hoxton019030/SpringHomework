@@ -7,6 +7,7 @@ import annotation.service.TestService;
 
 @Controller
 public class TestController {
+	
 	@Autowired
 	private TestService testservice;
 
