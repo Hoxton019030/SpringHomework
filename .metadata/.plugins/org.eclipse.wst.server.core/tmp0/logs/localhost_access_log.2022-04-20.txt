@@ -2,3 +2,5 @@
 0:0:0:0:0:0:0:1 - - [20/Apr/2022:15:00:14 +0800] "GET /Hibernate-Web-teacher/ HTTP/1.1" 200 145
 0:0:0:0:0:0:0:1 - - [20/Apr/2022:15:06:20 +0800] "GET /Hibernate-Web-teacher/login.jsp HTTP/1.1" 200 539
 0:0:0:0:0:0:0:1 - - [20/Apr/2022:15:06:30 +0800] "POST /Hibernate-Web-teacher/userLogin HTTP/1.1" 200 186
+127.0.0.1 - - [20/Apr/2022:15:10:12 +0800] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [20/Apr/2022:15:10:13 +0800] "GET /Hibernate-Web-teacher/index.jsp HTTP/1.1" 200 145

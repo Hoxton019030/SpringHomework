@@ -15,7 +15,6 @@ public HikariDataSource datasource() {
 	config.setUsername("Hoxton");
 	config.setPassword("orz93098");
 	config.setDriverClassName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-	config.setMaximumPoolSize(5);
 }
 
 }
