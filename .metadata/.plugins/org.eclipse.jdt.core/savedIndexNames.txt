@@ -39,7 +39,6 @@ INDEX VERSION 1.131+C:\_java\SpringHomework\.metadata\.plugins\org.eclipse.jdt.c
 4070325030.index
 2240210288.index
 635888181.index
-1105094973.index
 3407299622.index
 3234640488.index
 783057623.index

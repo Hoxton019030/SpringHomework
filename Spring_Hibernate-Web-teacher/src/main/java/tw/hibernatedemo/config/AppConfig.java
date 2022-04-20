@@ -14,7 +14,6 @@ import com.zaxxer.hikari.HikariDataSource;
 
 @Configuration
 @EnableTransactionManagement
-
 public class AppConfig {
 //1.建立連線
 	@Bean
