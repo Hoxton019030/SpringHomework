@@ -1,5 +1,3 @@
 INDEX VERSION 1.131
-C:\_Java\SpringHomework\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1107999723.index
+C:\_java\SpringHomework\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1107999723.index
 \Spring_Hibernate-Web-teacher\src\main\java
-C:\_Java\SpringHomework\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1747406235.index
-\Hibernate-Web-teacher\src\main\java
