@@ -1,0 +1,403 @@
+2022-04-20 13:36:42,787 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-04-20 13:41:49,884 [Worker-13: Updating Maven settings] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to re-index workspace://
+java.lang.NullPointerException: Cannot invoke "org.apache.maven.index.context.IndexingContext.purge()" because "context" is null
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.purgeCurrentIndex(NexusIndexManager.java:529)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.reindexWorkspace(NexusIndexManager.java:561)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateIndex(NexusIndexManager.java:1072)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.updateIndex(NexusIndex.java:147)
+	at org.eclipse.m2e.core.ui.internal.preferences.MavenSettingsPreferencePage$1.run(MavenSettingsPreferencePage.java:153)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-04-20 13:41:49,887 [Worker-13: Updating Maven settings] ERROR o.e.m.c.u.i.p.MavenSettingsPreferencePage - Reindexing error
+org.eclipse.core.runtime.CoreException: Reindexing error
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.reindexWorkspace(NexusIndexManager.java:568)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.updateIndex(NexusIndexManager.java:1072)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.updateIndex(NexusIndex.java:147)
+	at org.eclipse.m2e.core.ui.internal.preferences.MavenSettingsPreferencePage$1.run(MavenSettingsPreferencePage.java:153)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.apache.maven.index.context.IndexingContext.purge()" because "context" is null
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.purgeCurrentIndex(NexusIndexManager.java:529)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.reindexWorkspace(NexusIndexManager.java:561)
+	... 4 common frames omitted
+2022-04-20 13:51:57,389 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-04-20 13:52:31,917 [Worker-12: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Hibernate-Web-teacher:Hibernate-Web-teacher:0.0.1-SNAPSHOT @ C:\_Java\SpringHomework\hibernate_web_teacher.zip_expanded\Hibernate-Web-teacher\pom.xml.
+2022-04-20 13:52:35,241 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 13:52:35,242 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\hibernate_web_teacher.zip_expanded\Hibernate-Web-teacher\src\main\resources
+2022-04-20 13:52:35,245 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 13:52:35,246 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\hibernate_web_teacher.zip_expanded\Hibernate-Web-teacher\src\test\resources
+2022-04-20 13:53:08,472 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 13:53:08,474 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\hibernate_web_teacher.zip_expanded\Hibernate-Web-teacher\src\main\resources
+2022-04-20 13:53:08,476 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 13:53:08,477 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\hibernate_web_teacher.zip_expanded\Hibernate-Web-teacher\src\test\resources
+2022-04-20 13:54:41,218 [Worker-1: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: hibernate_web_teacher.zip_expanded:hibernate_web_teacher.zip_expanded:0.0.1-SNAPSHOT @ C:\_Java\SpringHomework\hibernate_web_teacher.zip_expanded\pom.xml.
+2022-04-20 13:54:41,785 [Worker-1: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hibernate_web_teacher.zip_expanded/Hibernate-Web-teacher/src/main/java
+2022-04-20 13:54:41,785 [Worker-1: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /hibernate_web_teacher.zip_expanded/Hibernate-Web-teacher/src/main/java overlaps with sources folder /hibernate_web_teacher.zip_expanded/Hibernate-Web-teacher/src/main/java
+2022-04-20 13:54:41,790 [Worker-1: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hibernate_web_teacher.zip_expanded/src/test/java
+2022-04-20 13:54:42,381 [Worker-1: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-04-20 13:54:42,447 [Worker-1: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: hibernate_web_teacher.zip_expanded:hibernate_web_teacher.zip_expanded:0.0.1-SNAPSHOT @ C:\_Java\SpringHomework\hibernate_web_teacher.zip_expanded\pom.xml.
+2022-04-20 13:54:42,636 [Worker-1: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hibernate_web_teacher.zip_expanded/Hibernate-Web-teacher/src/main/java
+2022-04-20 13:54:42,636 [Worker-1: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /hibernate_web_teacher.zip_expanded/Hibernate-Web-teacher/src/main/java overlaps with sources folder /hibernate_web_teacher.zip_expanded/Hibernate-Web-teacher/src/main/java
+2022-04-20 13:54:42,640 [Worker-1: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hibernate_web_teacher.zip_expanded/src/test/java
+2022-04-20 13:54:42,701 [Worker-1: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2022-04-20 13:54:42,932 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 13:54:42,939 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-04-20 13:54:42,956 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 13:54:42,957 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\hibernate_web_teacher.zip_expanded\src\test\resources
+2022-04-20 13:55:33,850 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-04-20 13:55:34,460 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Hibernate-Web-teacher:Hibernate-Web-teacher:0.0.1-SNAPSHOT @ C:\_Java\SpringHomework\hibernate_web_teacher.zip_expanded\Hibernate-Web-teacher\pom.xml.
+2022-04-20 13:55:34,655 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: hibernate_web_teacher.zip_expanded:hibernate_web_teacher.zip_expanded:0.0.1-SNAPSHOT @ C:\_Java\SpringHomework\hibernate_web_teacher.zip_expanded\pom.xml.
+2022-04-20 13:55:35,749 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hibernate_web_teacher.zip_expanded/Hibernate-Web-teacher/src/main/java
+2022-04-20 13:55:35,749 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /hibernate_web_teacher.zip_expanded/Hibernate-Web-teacher/src/main/java overlaps with sources folder /hibernate_web_teacher.zip_expanded/Hibernate-Web-teacher/src/main/java
+2022-04-20 13:55:35,750 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hibernate_web_teacher.zip_expanded/src/test/java
+2022-04-20 13:55:35,775 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Hibernate-Web-teacher/src/main/java
+2022-04-20 13:55:35,776 [Worker-19: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Hibernate-Web-teacher/src/test/java
+2022-04-20 13:55:37,334 [Worker-19: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for Hibernate-Web-teacher
+2022-04-20 13:55:37,343 [Worker-19: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2022-04-20 13:55:37,871 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 13:55:37,872 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\hibernate_web_teacher.zip_expanded\Hibernate-Web-teacher\src\main\resources
+2022-04-20 13:55:37,873 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 13:55:37,874 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\hibernate_web_teacher.zip_expanded\Hibernate-Web-teacher\src\test\resources
+2022-04-20 13:55:37,874 [Worker-7: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Hibernate-Web-teacher
+2022-04-20 13:55:37,876 [Worker-7: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Hibernate-Web-teacher
+2022-04-20 13:55:37,880 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.maven.plugins:maven-clean-plugin:jar:2.5 is missing, no dependency information available
+2022-04-20 13:55:37,887 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 13:55:38,005 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 13:55:38,007 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2022-04-20 13:55:38,021 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 13:55:38,022 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\hibernate_web_teacher.zip_expanded\src\test\resources
+2022-04-20 13:58:43,401 [Worker-18: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Hibernate-Web-teacher:Hibernate-Web-teacher:0.0.1-SNAPSHOT @ C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\pom.xml.
+2022-04-20 13:58:45,074 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 13:58:45,077 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\main\resources
+2022-04-20 13:58:45,630 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 13:58:45,631 [Worker-1: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Hibernate-Web-teacher:Hibernate-Web-teacher:0.0.1-SNAPSHOT @ C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\pom.xml.
+2022-04-20 13:58:45,632 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\test\resources
+2022-04-20 13:58:48,717 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 13:58:48,719 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\main\resources
+2022-04-20 13:58:48,720 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 13:58:48,721 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:00:08,667 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:00:08,668 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:00:08,670 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:00:08,670 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:25:42,274 [Worker-27: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SpringDemoTeacher:SpringDemoTeacher:0.0.1-SNAPSHOT @ C:\Users\iii\Dropbox\PC\Downloads\Spring_teacher0419_new\SpringDemoTeacher\pom.xml.
+2022-04-20 14:25:42,735 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:25:42,737 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\Spring_teacher0419_new\SpringDemoTeacher\src\main\resources
+2022-04-20 14:25:42,738 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:25:42,740 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\Spring_teacher0419_new\SpringDemoTeacher\src\test\resources
+2022-04-20 14:25:43,498 [Worker-27: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SpringDemoTeacher:SpringDemoTeacher:0.0.1-SNAPSHOT @ C:\Users\iii\Dropbox\PC\Downloads\Spring_teacher0419_new\SpringDemoTeacher\pom.xml.
+2022-04-20 14:25:48,800 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:25:48,802 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\Spring_teacher0419_new\SpringDemoTeacher\src\main\resources
+2022-04-20 14:25:48,803 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:25:48,805 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\Spring_teacher0419_new\SpringDemoTeacher\src\test\resources
+2022-04-20 14:26:33,751 [Worker-25: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SpringDemoTeacher:SpringDemoTeacher:0.0.1-SNAPSHOT @ C:\Users\iii\Dropbox\PC\Downloads\SpringDemoTeacher\pom.xml.
+2022-04-20 14:26:34,177 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:26:34,178 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\SpringDemoTeacher\src\main\resources
+2022-04-20 14:26:34,179 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:26:34,181 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\SpringDemoTeacher\src\test\resources
+2022-04-20 14:26:35,166 [Worker-25: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SpringDemoTeacher:SpringDemoTeacher:0.0.1-SNAPSHOT @ C:\Users\iii\Dropbox\PC\Downloads\SpringDemoTeacher\pom.xml.
+2022-04-20 14:26:36,151 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:26:36,153 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\SpringDemoTeacher\src\main\resources
+2022-04-20 14:26:36,154 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:26:36,156 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\SpringDemoTeacher\src\test\resources
+2022-04-20 14:35:43,782 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:35:43,783 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:35:43,785 [Worker-29: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:35:43,786 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:36:51,601 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:36:51,603 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:36:51,604 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:36:51,605 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:41:04,553 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:41:04,554 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:41:04,555 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:41:04,556 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:41:11,903 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:41:11,905 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:41:11,906 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:41:11,907 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:43:36,473 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:43:36,475 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:43:36,476 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:43:36,477 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:44:33,612 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:44:33,613 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:44:33,615 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:44:33,616 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:51:38,802 [Worker-42: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Hibernate-Web-teacher:Hibernate-Web-teacher:0.0.1-SNAPSHOT @ C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\pom.xml.
+2022-04-20 14:51:39,299 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:51:39,301 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:51:39,301 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:51:39,302 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:51:43,926 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:51:43,927 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:51:43,928 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:51:43,929 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:53:29,948 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:53:29,950 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:53:29,952 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:53:29,954 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:53:30,130 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:53:30,131 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:53:30,132 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:53:30,134 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:53:53,560 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:53:53,562 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:53:53,563 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:53:53,565 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:54:03,181 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:54:03,183 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:54:03,185 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:54:03,186 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:55:39,159 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:55:39,161 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:55:39,162 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:55:39,164 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:55:39,313 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:55:39,315 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:55:39,315 [Worker-46: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:55:39,317 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:55:58,800 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:55:58,801 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:55:58,802 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:55:58,804 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:56:12,816 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:56:12,818 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:56:12,819 [Worker-48: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:56:12,820 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:57:33,423 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:57:33,424 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:57:33,425 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:57:33,426 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:58:21,633 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:58:21,635 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:58:21,636 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:58:21,637 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:58:21,783 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:58:21,784 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:58:21,786 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:58:21,787 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:59:06,471 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:59:06,473 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:59:06,475 [Worker-42: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:59:06,476 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\iii\Dropbox\PC\Downloads\hibernate_web_teacher\Hibernate-Web-teacher\src\test\resources
+2022-04-20 14:59:35,970 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:59:35,971 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 14:59:35,972 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 14:59:35,974 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 15:09:25,846 [Worker-53: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Hibernate-Web-teacher:Hibernate-Web-teacher:0.0.1-SNAPSHOT @ C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\pom.xml.
+2022-04-20 15:09:27,203 [Worker-53: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/${spring.version}/spring-core-${spring.version}.pom
+2022-04-20 15:09:27,216 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-core:jar:${spring.version} is missing, no dependency information available
+2022-04-20 15:09:27,574 [Worker-53: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/${spring.version}/spring-beans-${spring.version}.pom
+2022-04-20 15:09:27,585 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-beans:jar:${spring.version} is missing, no dependency information available
+2022-04-20 15:09:27,801 [Worker-53: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/${spring.version}/spring-context-${spring.version}.pom
+2022-04-20 15:09:27,808 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-context:jar:${spring.version} is missing, no dependency information available
+2022-04-20 15:09:28,017 [Worker-53: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/${spring.version}/spring-aop-${spring.version}.pom
+2022-04-20 15:09:28,027 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-aop:jar:${spring.version} is missing, no dependency information available
+2022-04-20 15:09:28,404 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/${spring.version}/spring-beans-${spring.version}.jar
+2022-04-20 15:09:28,405 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/${spring.version}/spring-aop-${spring.version}.jar
+2022-04-20 15:09:28,593 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/${spring.version}/spring-context-${spring.version}.jar
+2022-04-20 15:09:28,593 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/${spring.version}/spring-core-${spring.version}.jar
+2022-04-20 15:09:28,664 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-core:jar:${spring.version} is missing, no dependency information available
+2022-04-20 15:09:28,666 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-beans:jar:${spring.version} is missing, no dependency information available
+2022-04-20 15:09:28,669 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-context:jar:${spring.version} is missing, no dependency information available
+2022-04-20 15:09:28,672 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-aop:jar:${spring.version} is missing, no dependency information available
+2022-04-20 15:09:29,284 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:09:29,285 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 15:09:29,286 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:09:29,286 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 15:09:29,287 [Worker-53: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Spring_Hibernate-Web-teacher
+2022-04-20 15:09:29,287 [Worker-53: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Spring_Hibernate-Web-teacher
+2022-04-20 15:09:29,291 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:09:29,961 [Worker-56: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-core:jar:${spring.version} is missing, no dependency information available
+2022-04-20 15:09:29,964 [Worker-56: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-beans:jar:${spring.version} is missing, no dependency information available
+2022-04-20 15:09:29,968 [Worker-56: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-context:jar:${spring.version} is missing, no dependency information available
+2022-04-20 15:09:29,971 [Worker-56: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-aop:jar:${spring.version} is missing, no dependency information available
+2022-04-20 15:09:30,885 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-core/${spring.version}/spring-core-${spring.version}-sources.jar
+2022-04-20 15:09:30,890 [Worker-56: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework:spring-core:${spring.version}
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework:spring-core:jar:sources:${spring.version}
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-04-20 15:09:31,564 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/${spring.version}/spring-beans-${spring.version}-sources.jar
+2022-04-20 15:09:31,568 [Worker-56: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework:spring-beans:${spring.version}
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework:spring-beans:jar:sources:${spring.version}
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-04-20 15:09:32,368 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/${spring.version}/spring-context-${spring.version}-sources.jar
+2022-04-20 15:09:32,383 [Worker-56: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework:spring-context:${spring.version}
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework:spring-context:jar:sources:${spring.version}
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-04-20 15:09:32,996 [Worker-56: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-aop/${spring.version}/spring-aop-${spring.version}-sources.jar
+2022-04-20 15:09:33,012 [Worker-56: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.springframework:spring-aop:${spring.version}
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springframework:spring-aop:jar:sources:${spring.version}
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:804)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:114)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:772)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:749)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:330)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:304)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:269)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:233)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:161)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:179)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:153)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-04-20 15:09:37,057 [Worker-54: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Hibernate-Web-teacher:Hibernate-Web-teacher:0.0.1-SNAPSHOT @ C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\pom.xml.
+2022-04-20 15:09:37,791 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:09:37,791 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 15:09:37,792 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:09:37,793 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 15:09:37,794 [Worker-54: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Spring_Hibernate-Web-teacher
+2022-04-20 15:09:37,794 [Worker-54: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Spring_Hibernate-Web-teacher
+2022-04-20 15:09:37,797 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:09:39,412 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:09:39,413 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 15:09:39,414 [Worker-53: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:09:39,415 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 15:13:51,298 [Worker-57: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Hibernate-Web-teacher:Hibernate-Web-teacher:0.0.1-SNAPSHOT @ C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\pom.xml.
+2022-04-20 15:13:52,562 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:13:52,563 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 15:13:52,565 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:13:52,566 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 15:13:52,567 [Worker-57: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Spring_Hibernate-Web-teacher
+2022-04-20 15:13:52,567 [Worker-57: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Spring_Hibernate-Web-teacher
+2022-04-20 15:13:52,572 [Worker-57: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:13:54,347 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:13:54,348 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 15:13:54,348 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:13:54,349 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 15:14:00,638 [Worker-56: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Hibernate-Web-teacher:Hibernate-Web-teacher:0.0.1-SNAPSHOT @ C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\pom.xml.
+2022-04-20 15:14:01,951 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:14:01,952 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 15:14:01,953 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:14:01,954 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 15:14:01,955 [Worker-56: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Spring_Hibernate-Web-teacher
+2022-04-20 15:14:01,955 [Worker-56: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Spring_Hibernate-Web-teacher
+2022-04-20 15:14:01,959 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:14:03,865 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:14:03,866 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 15:14:03,866 [Worker-54: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:14:03,867 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 15:14:17,832 [Worker-56: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Hibernate-Web-teacher:Hibernate-Web-teacher:0.0.1-SNAPSHOT @ C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\pom.xml.
+2022-04-20 15:14:19,104 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:14:19,105 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 15:14:19,106 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:14:19,107 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 15:14:19,107 [Worker-56: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Spring_Hibernate-Web-teacher
+2022-04-20 15:14:19,107 [Worker-56: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Spring_Hibernate-Web-teacher
+2022-04-20 15:14:19,111 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:14:21,347 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:14:21,348 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 15:14:21,348 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:14:21,349 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 15:16:32,285 [Worker-60: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: Hibernate-Web-teacher:Hibernate-Web-teacher:0.0.1-SNAPSHOT @ C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\pom.xml.
+2022-04-20 15:16:34,103 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:16:34,104 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 15:16:34,105 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:16:34,106 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 15:16:34,106 [Worker-60: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Spring_Hibernate-Web-teacher
+2022-04-20 15:16:34,106 [Worker-60: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Spring_Hibernate-Web-teacher
+2022-04-20 15:16:34,111 [Worker-60: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:16:35,613 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:16:35,614 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 15:16:35,615 [Worker-62: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:16:35,615 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 15:57:00,023 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:57:00,024 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 15:57:00,026 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:57:00,028 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 15:58:57,091 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:58:57,093 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 15:58:57,093 [Worker-71: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 15:58:57,095 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 16:02:18,450 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 16:02:18,452 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 16:02:18,453 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 16:02:18,454 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 16:02:43,876 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 16:02:43,877 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 16:02:43,879 [Worker-77: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 16:02:43,880 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 16:03:20,906 [Worker-74: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 16:03:20,907 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 16:03:20,908 [Worker-74: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 16:03:20,909 [Worker-74: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 16:05:39,978 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 16:05:39,979 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 16:05:39,980 [Worker-85: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 16:05:39,981 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 16:05:41,034 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 16:05:41,035 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 16:05:41,037 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 16:05:41,038 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 16:06:39,222 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 16:06:39,223 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 16:06:39,225 [Worker-81: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 16:06:39,226 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 16:07:02,009 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 16:07:02,010 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 16:07:02,011 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 16:07:02,013 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 16:07:23,926 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 16:07:23,928 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 16:07:23,929 [Worker-84: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 16:07:23,930 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 16:08:08,663 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 16:08:08,664 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 16:08:08,665 [Worker-80: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 16:08:08,666 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 16:12:17,637 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 16:12:17,638 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
+2022-04-20 16:12:17,639 [Worker-83: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 16:12:17,640 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\test\resources
+2022-04-20 16:12:26,799 [Worker-89: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS950 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-04-20 16:12:26,801 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\_Java\SpringHomework\Spring_Hibernate-Web-teacher\src\main\resources
