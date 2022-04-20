@@ -2,16 +2,20 @@ package tw.hibernatedemo.model;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import tw.hibernatedemo.util.HibernateUtil;
 
+@Repository
 public class MemberDao {
-	
+	@Autowired
 	private SessionFactory factory;
 	
-	public MemberDao() {
-		this.factory = HibernateUtil.getSessionFactory();
-	}
+	//§ï¥ÎAutoWired
+//	public MemberDao() {
+//		this.factory = HibernateUtil.getSessionFactory();
+//	}
 	
 	public Member findByNameAndPassword(String loginName, String loginPwd) {
 		Session session = factory.getCurrentSession();

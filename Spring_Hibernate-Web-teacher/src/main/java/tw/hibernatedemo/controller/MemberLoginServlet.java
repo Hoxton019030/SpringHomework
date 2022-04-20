@@ -12,6 +12,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import org.springframework.web.context.WebApplicationContext;
+import org.springframework.web.context.support.WebApplicationContextUtils;
+
 import tw.hibernatedemo.model.Member;
 import tw.hibernatedemo.service.MemberService;
 
@@ -31,7 +34,6 @@ public class MemberLoginServlet extends HttpServlet {
 		
 		Map<String, String> errorMsgMap = new HashMap<String, String>();
 		
-		// 將 errorMsgMap 放入 request 物件內，識別字串為 ErrorMsgKey
 		request.setAttribute("ErrorMsgKey", errorMsgMap);
 		
 		HttpSession httpSession = request.getSession();
@@ -39,18 +41,21 @@ public class MemberLoginServlet extends HttpServlet {
 		String username = request.getParameter("uname");
 		String password = request.getParameter("psw");
 		
-		MemberService memberService = new MemberService();
+//		MemberService memberService = new MemberService();
+		WebApplicationContext context = WebApplicationContextUtils.getWebApplicationContext(getServletContext());
+		MemberService memberService = context.getBean("memberService",MemberService.class);
+		
 		
 		Member tmpMember = memberService.checkLogin(username, password);
 		
 		if(tmpMember != null) {
 			httpSession.setAttribute("loginOK", tmpMember.getMemberName());
 		} else {
-			errorMsgMap.put("LoginError", "帳號密碼不存在，請重新輸入");
+			errorMsgMap.put("LoginError", "撣唾��Ⅳ銝�嚗��頛詨");
 		}
 		
 		if(errorMsgMap.isEmpty()) {
-			// 沒錯誤，傳到 loginOK.jsp
+			// 瘝隤歹�� loginOK.jsp
 			RequestDispatcher rd = request.getRequestDispatcher("loginOK.jsp");
 			rd.forward(request, response);
 		} else {
