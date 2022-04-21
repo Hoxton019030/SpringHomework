@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=BIG5"
-    pageEncoding="BIG5"%>
+	pageEncoding="BIG5"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,9 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Index Page</h1>
-<a href="showform">學生表單頁面</a>
-<br />
-<a href="showCarForm">到Car表單頁面</a>
+	<h1>回傳訊息 ${message}</h1>
 </body>
 </html>
